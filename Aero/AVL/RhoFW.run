@@ -1,0 +1,82 @@
+
+ ---------------------------------------------
+ Run case  1:  Design Point                            
+
+ alpha        ->  CL          =  0.600000    
+ beta         ->  beta        =   0.00000    
+ pb/2V        ->  pb/2V       =   0.00000    
+ qc/2V        ->  qc/2V       =   0.00000    
+ rb/2V        ->  rb/2V       =   0.00000    
+ elevator     ->  Cm pitchmom =   0.00000    
+
+ alpha     =  0.194398     deg                             
+ beta      =   0.00000     deg                             
+ pb/2V     =   0.00000                                     
+ qc/2V     =   0.00000                                     
+ rb/2V     =   0.00000                                     
+ CL        =  0.600000                                     
+ CDo       =  0.200000E-01                                 
+ bank      =   0.00000     deg                             
+ elevation =   0.00000     deg                             
+ heading   =   0.00000     deg                             
+ Mach      =   0.00000                                     
+ velocity  =   13.6823     Lunit/Tunit                     
+ density   =   1.22500     Munit/Lunit^3                   
+ grav.acc. =   9.80650     Lunit/Tunit^2                   
+ turn_rad. =   0.00000     Lunit                           
+ load_fac. =   1.00000                                     
+ X_cg      =  0.327000     Lunit                           
+ Y_cg      =   0.00000     Lunit                           
+ Z_cg      =   0.00000     Lunit                           
+ mass      =   6.57709     Munit                           
+ Ixx       =   7.35531     Munit-Lunit^2                   
+ Iyy       =  0.368376     Munit-Lunit^2                   
+ Izz       =   7.88815     Munit-Lunit^2                   
+ Ixy       =   0.00000     Munit-Lunit^2                   
+ Iyz       =   0.00000     Munit-Lunit^2                   
+ Izx       =   0.00000     Munit-Lunit^2                   
+ visc CL_a =   0.00000                                     
+ visc CL_u =   0.00000                                     
+ visc CM_a =   0.00000                                     
+ visc CM_u =   0.00000                                     
+
+ ---------------------------------------------
+ Run case  2:  No Elevator                             
+
+ alpha        ->  CL          =  0.600000    
+ beta         ->  beta        =   0.00000    
+ pb/2V        ->  pb/2V       =   0.00000    
+ qc/2V        ->  qc/2V       =   0.00000    
+ rb/2V        ->  rb/2V       =   0.00000    
+ elevator     ->  elevator    =   0.00000    
+
+ alpha     =  0.194398     deg                             
+ beta      =   0.00000     deg                             
+ pb/2V     =   0.00000                                     
+ qc/2V     =   0.00000                                     
+ rb/2V     =   0.00000                                     
+ CL        =  0.600000                                     
+ CDo       =  0.200000E-01                                 
+ bank      =   0.00000     deg                             
+ elevation =   0.00000     deg                             
+ heading   =   0.00000     deg                             
+ Mach      =   0.00000                                     
+ velocity  =   13.6823     Lunit/Tunit                     
+ density   =   1.22500     Munit/Lunit^3                   
+ grav.acc. =   9.80650     Lunit/Tunit^2                   
+ turn_rad. =   0.00000     Lunit                           
+ load_fac. =   1.00000                                     
+ X_cg      =  0.327000     Lunit                           
+ Y_cg      =   0.00000     Lunit                           
+ Z_cg      =   0.00000     Lunit                           
+ mass      =   6.57709     Munit                           
+ Ixx       =   7.35531     Munit-Lunit^2                   
+ Iyy       =  0.368376     Munit-Lunit^2                   
+ Izz       =   7.88815     Munit-Lunit^2                   
+ Ixy       =   0.00000     Munit-Lunit^2                   
+ Iyz       =   0.00000     Munit-Lunit^2                   
+ Izx       =   0.00000     Munit-Lunit^2                   
+ visc CL_a =   0.00000                                     
+ visc CL_u =   0.00000                                     
+ visc CM_a =   0.00000                                     
+ visc CM_u =   0.00000                                     
