@@ -12,7 +12,7 @@ import math
 
 
 
-
+# Test comment inserted
 
 
 
@@ -31,6 +31,9 @@ rootchord = 240 # [mm]
 tipchord = 60 # [mm]
 
 chordrange = [((rootchord - tipchord)/(0 - b))*spanpos + rootchord for spanpos in spanrange]
+
+# Remember to add the dihedral angle
+
 
 App.newDocument("Prandtl")
 App.setActiveDocument("Prandtl")
