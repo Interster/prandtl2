@@ -8,29 +8,15 @@ place = ''
 import FreeCAD
 import importAirfoilDAT
 import Part
-import math
 
-
-
-
-
-
-
-
-twist = [8.3274,8.5524,8.7259,8.8441,8.903,8.8984,8.8257,8.6801,8.4565,8.1492,7.7522,7.2592,6.6634,5.9579,5.1362,4.1927,3.1253,1.9394,0.6589,-0.6417,-1.6726]
+sweep = [8.3274,8.5524,8.7259,8.8441,8.903,8.8984,8.8257,8.6801,8.4565,8.1492,7.7522,
+7.2592,6.6634,5.9579,5.1362,4.1927,
+16	3.1253,
+17	1.9394,
+18	0.6589,	-0.6417, -1.6726]
 
 b = 2.25 # Span in metres
-spanrange = list(range(0,21))
-spanrange = [b*spanpos/20 for spanpos in spanrange]
 
-sweepangle = 24*math.pi/180 # [radians]
-sweeprange = [math.tan(sweepangle)*spanpos for spanpos in spanrange]
-
-
-rootchord = 240 # [mm]
-tipchord = 60 # [mm]
-
-chordrange = [((rootchord - tipchord)/(0 - b))*spanpos + rootchord for spanpos in spanrange]
 
 App.newDocument("Prandtl")
 App.setActiveDocument("Prandtl")
